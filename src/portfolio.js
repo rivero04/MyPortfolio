@@ -27,6 +27,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/riveroignacio',
     github: 'https://github.com/rivero04',
+    instagram: 'https://www.instagram.com/rivero.04/',
   },
 }
 
@@ -66,14 +67,19 @@ const skills = [
   'React',
   'Python',
   'C',
-  'MySQL',
+  'MySQL'
+]
+
+const tools = [
+  'VSCode',
+  'Github',
   'Docker',
   'Git',
-  'VSCode',
+  'Vercel',
 ]
 
 const contact = {
   email: 'ignaciorivero31@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, tools, contact }
