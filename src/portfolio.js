@@ -7,21 +7,21 @@ const about = {
   role: 'Software Developer',
   description:
   <>
-  <p>
-  My name is Nacho, I'm 19 years old and I'm from Uruguay. I’m a FullStack developer specializing in frontend. 
-  </p>
-  <p>
-  I’ve been involved in projects that have equipped me with the knowledge to build applications from scratch, develop my soft skills, and work within multidisciplinary teams. 
-  </p>
-  <p>
-    These experiences have taught me to quickly adapt to new challenges and collaborate effectively with colleagues from various backgrounds. 
-  </p>
-  <p>
-    Throughout my career, I’ve honed my ability to adapt swiftly to new work environments. 
-  </p>
-  <p>
-    I’m sociable, responsible, and always eager to learn and grow.
-  </p>
+ <p>
+  My name is <strong>Nacho</strong>, I'm <strong>19 years old</strong> and I'm from <strong>Uruguay</strong>. I’m a <strong>FullStack developer</strong> specializing in <strong>frontend</strong>. 
+</p>
+<p>
+  I’ve been involved in projects that have equipped me with the knowledge to <strong>build applications from scratch</strong>, develop my <strong>soft skills</strong>, and work within <strong>multidisciplinary teams</strong>. 
+</p>
+<p>
+  These experiences have taught me to <strong>quickly adapt</strong> to new challenges and collaborate effectively with colleagues from various backgrounds. 
+</p>
+<p>
+  Throughout my career, I’ve honed my ability to <strong>adapt swiftly</strong> to new work environments. 
+</p>
+<p>
+  I’m <strong>sociable</strong>, <strong>responsible</strong>, and always eager to <strong>learn and grow</strong>.
+</p>
 </>,
   resume: 'https://drive.google.com/file/d/1krVDqOEAde-xg_lOEnVBqgxNLj4b8xOD/view?usp=sharing',
   social: {

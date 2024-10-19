@@ -5,6 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .skills__list-item {
@@ -12,6 +13,8 @@
 }
 
 .skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -19,11 +22,13 @@
 }
 
 .section {
-  flex: 1; 
+  flex: 1;
   min-width: 300px;
 }
 
 @media (max-width: 768px) {
   .skills-container {
     flex-direction: column;
-}}
+    align-items: center; 
+  }
+}
