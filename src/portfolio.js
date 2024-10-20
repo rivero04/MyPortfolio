@@ -1,6 +1,7 @@
 const header = {
-  title: 'IR | Portfolio',
+  title: '2024 | Portfolio'
 }
+
 
 const about = {
   name: 'Ignacio Rivero',
@@ -59,24 +60,24 @@ const projects = [
 ]
 
 const skills = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'NodeJS',
-  'TypeScript',
-  'React',
-  'Python',
-  'C',
-  'MySQL'
-]
+  { name: 'HTML', class: 'skill-html' },
+  { name: 'CSS', class: 'skill-css' },
+  { name: 'JavaScript', class: 'skill-javascript' },
+  { name: 'NodeJS', class: 'skill-nodejs' },
+  { name: 'TypeScript', class: 'skill-typescript' },
+  { name: 'React', class: 'skill-react' },
+  { name: 'Python', class: 'skill-python' },
+  { name: 'C', class: 'skill-c' },
+  { name: 'MySQL', class: 'skill-mysql' }
+];
 
 const tools = [
-  'VSCode',
-  'Github',
-  'Docker',
-  'Git',
-  'Vercel',
-]
+  { name: 'VSCode', class: 'tool-vscode' },
+  { name: 'Github', class: 'tool-github' },
+  { name: 'Docker', class: 'tool-docker' },
+  { name: 'Git', class: 'tool-git' },
+  { name: 'Vercel', class: 'tool-vercel' }
+];
 
 const contact = {
   email: 'ignaciorivero31@gmail.com',

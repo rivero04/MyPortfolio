@@ -10,6 +10,15 @@
 
 .skills__list-item {
   margin: 0.5em;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.skills__list-item:hover {
+  color: #fff;
+  border-color: #333;
 }
 
 .skills-container {
@@ -24,6 +33,62 @@
 .section {
   flex: 1;
   min-width: 300px;
+}
+
+.skill-html:hover {
+  background-color: #e34c26;
+}
+
+.skill-css:hover {
+  background-color: #264de4;
+}
+
+.skill-javascript:hover {
+  background-color: #f0db4f;
+}
+
+.skill-nodejs:hover {
+  background-color: #68a063;
+}
+
+.skill-typescript:hover {
+  background-color: #007acc;
+}
+
+.skill-react:hover {
+  background-color: #61dbfb;
+}
+
+.skill-python:hover {
+  background-color: #306998;
+}
+
+.skill-c:hover {
+  background-color: #a8b9cc;
+}
+
+.skill-mysql:hover {
+  background-color: #00758f;
+}
+
+.tool-vscode:hover {
+  background-color: #0078d7;
+}
+
+.tool-github:hover {
+  background-color: #757575;
+}
+
+.tool-docker:hover {
+  background-color: #0db7ed;
+}
+
+.tool-git:hover {
+  background-color: #f05032;
+}
+
+.tool-vercel:hover {
+  background-color: #000;
 }
 
 @media (max-width: 768px) {

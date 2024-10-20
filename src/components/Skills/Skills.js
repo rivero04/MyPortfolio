@@ -12,8 +12,8 @@ const Skills = () => {
         <h2 className='section__title'>Technologies</h2>
         <ul className='skills__list'>
           {skills.map((skill) => (
-            <li key={uniqid()} className='skills__list-item btn btn--plain'>
-              {skill}
+            <li key={uniqid()} className={`skills__list-item btn btn--plain ${skill.class}`}>
+              {skill.name}
             </li>
           ))}
         </ul>
@@ -23,8 +23,8 @@ const Skills = () => {
         <h2 className='section__title'>Environments and Tools</h2>
         <ul className='skills__list'>
           {tools.map((tool) => (
-            <li key={uniqid()} className='skills__list-item btn btn--plain'>
-              {tool}
+            <li key={uniqid()} className={`skills__list-item btn btn--plain ${tool.class}`}>
+              {tool.name}
             </li>
           ))}
         </ul>

@@ -2,12 +2,14 @@
   padding: 2em;
   margin: 0 auto;
   text-align: center;
+  background-color: var(--clr-bg-alt);
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 10px;
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  transform: translateY(-10px);
 }
 
 .project__description {
