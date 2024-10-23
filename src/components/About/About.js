@@ -21,7 +21,7 @@ const About = () => {
 
       {/* <div className='about__img'>
         <img src={myphoto} alt={name} />
-      </div> */}
+      </div> en duda porque queda fea la imagen*/}
 
       <div className='about__contact center'>
         {resume && (
