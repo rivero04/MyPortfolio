@@ -14,7 +14,6 @@
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
-  text-align: center;
 }
 
 .about__desc,
@@ -55,6 +54,10 @@
   .about__name::before {
     content: '\A';
     white-space: pre;
+  }
+
+  .about__desc {
+    text-align: center;
   }
 }
 

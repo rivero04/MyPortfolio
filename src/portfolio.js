@@ -27,8 +27,7 @@ const about = {
   resume: 'https://drive.google.com/file/d/1lv0niASHcFyr6PLnnYNwCzN26tNruhFW/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/riveroignacio',
-    github: 'https://github.com/rivero04',
-    instagram: 'https://www.instagram.com/rivero.04/',
+    github: 'https://github.com/rivero04'
   },
 }
 
