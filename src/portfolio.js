@@ -24,7 +24,7 @@ const about = {
   I’m <strong>sociable</strong>, <strong>responsible</strong>, and always eager to <strong>learn and grow</strong>.
 </p>
 </>,
-  resume: 'https://drive.google.com/file/d/1krVDqOEAde-xg_lOEnVBqgxNLj4b8xOD/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1lv0niASHcFyr6PLnnYNwCzN26tNruhFW/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/riveroignacio',
     github: 'https://github.com/rivero04',
