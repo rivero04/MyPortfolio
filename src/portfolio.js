@@ -1,7 +1,18 @@
 const header = {
   title: '2024 | Portfolio'
 }
+const calculateAge = (birthDate) => {
+  const today = new Date();
+  const birthDateObj = new Date(birthDate);
+  let age = today.getFullYear() - birthDateObj.getFullYear();
+  const monthDifference = today.getMonth() - birthDateObj.getMonth();
+  if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDateObj.getDate())) {
+    age--;
+  }
+  return age;
+};
 
+const age = calculateAge('2004-12-31');
 
 const about = {
   name: 'Ignacio Rivero',
@@ -9,7 +20,7 @@ const about = {
   description:
   <>
  <p>
-  My name is <strong>Nacho</strong>, I'm <strong>19 years old</strong> and I'm from <strong>Uruguay</strong>. I’m a <strong>FullStack developer</strong> specializing in <strong>frontend</strong>. 
+  My name is <strong>Nacho</strong>, I'm <strong>{age} years old</strong> and I'm from <strong>Uruguay</strong>. I’m a <strong>FullStack developer</strong> specializing in <strong>frontend</strong>. 
 </p>
 <p>
   I’ve been involved in projects that have equipped me with the knowledge to <strong>build applications from scratch</strong>, develop my <strong>soft skills</strong>, and work within <strong>multidisciplinary teams</strong>. 
@@ -56,6 +67,14 @@ const projects = [
     sourceCode: 'https://github.com/rivero04/holbertonschool-AirBnB_clone_v4',
     // livePreview: 'https://github.com',
   },
+  {
+    name: 'RESTful API Development',
+    description:
+      'Developed a RESTful API using Python, incorporating comprehensive CRUD operations for efficient resource management. This project enhanced my proficiency in handling HTTP requests and managing data in JSON format, ensuring proper communication between the client and server.',
+    stack: ['HTML', 'CSS', 'Python'],
+    sourceCode: 'https://github.com/alriffaud/holbertonschool-AirBnB_clone_v3',
+    // livePreview: 'https://github.com',
+  }
 ]
 
 const skills = [
