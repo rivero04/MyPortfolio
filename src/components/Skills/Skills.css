@@ -91,6 +91,10 @@
   background-color: #000;
 }
 
+.tool-jira:hover {
+  background-color: #0052CC;
+} 
+
 @media (max-width: 768px) {
   .skills-container {
     flex-direction: column;
