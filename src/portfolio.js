@@ -94,7 +94,8 @@ const tools = [
   { name: 'Github', class: 'tool-github' },
   { name: 'Docker', class: 'tool-docker' },
   { name: 'Git', class: 'tool-git' },
-  { name: 'Vercel', class: 'tool-vercel' }
+  { name: 'Vercel', class: 'tool-vercel' },
+  { name: 'Jira', class: 'tool-jira' }
 ];
 
 const contact = {
