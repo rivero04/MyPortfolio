@@ -1,6 +1,10 @@
+const getCurrentYear = () => new Date().getFullYear();
+const currentYear = getCurrentYear();
+
 const header = {
-  title: '2024 | Portfolio'
+  title: `${currentYear} | Portfolio`
 }
+
 const calculateAge = (birthDate) => {
   const today = new Date();
   const birthDateObj = new Date(birthDate);
